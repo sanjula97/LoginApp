@@ -10,7 +10,7 @@
 
     <ImageView
             android:layout_width="147dp"
-            android:layout_height="200dp" app:srcCompat="@drawable/logo" android:layout_alignParentStart="true"
+            android:layout_height="200dp" app:srcCompat="@drawable/logo1" android:layout_alignParentStart="true"
             android:layout_marginStart="130dp" android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" android:id="@+id/imageView" android:layout_marginTop="33dp"
             android:layout_marginLeft="130dp"/>
@@ -31,18 +31,15 @@
             android:layout_alignParentBottom="true"
             android:id="@+id/button3" android:layout_marginBottom="125dp"
     />
-    <TextView
-            android:text="User name"
+    <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:id="@+id/textView2"
-            android:layout_marginBottom="288dp"
-            android:textSize="24sp"
-            android:textColor="#FFFFFF"
-            android:textColorHighlight="#FFFFFF"
-
-            android:textColorLink="#FFFFFF" android:layout_alignParentStart="true"/>
+            android:inputType="textPersonName"
+            android:text="Enter user name"
+            android:ems="10"
+            android:layout_alignParentBottom="true" android:id="@+id/editText3"
+            android:layout_marginBottom="272dp" android:hint="Enter user name"
+            android:textColorHint="#FFFFFF"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
