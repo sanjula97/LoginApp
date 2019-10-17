@@ -5,30 +5,38 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" android:background="@drawable/main_background">
 
-    <Button
-            android:text="Signup"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnNvgThird" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
-            android:layout_marginBottom="21dp" android:layout_marginStart="0dp"/>
     <ImageView
             android:layout_width="172dp"
             android:layout_height="162dp" app:srcCompat="@drawable/logo" android:layout_alignParentStart="true"
             android:layout_marginStart="113dp" android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" android:id="@+id/imageView2" android:layout_marginTop="56dp"
             android:layout_marginLeft="113dp"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="343dp"
+            android:background="#005F85"
+            android:alpha="0.5"
+            android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:id="@+id/imageView6"
+            android:layout_marginBottom="3dp" android:layout_marginLeft="0dp"/>
+
+    <Button
+            android:text="Signup"
+            android:layout_width="match_parent"
+            android:background="@drawable/rounded_button"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNvgThird" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="21dp" android:layout_marginStart="0dp"/>
+
+
     <Button
             android:text="Login with facebook"
             android:layout_width="match_parent"
+            android:background="@drawable/rounded_button"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true" android:id="@+id/button2" android:layout_marginBottom="82dp"
             android:layout_alignParentStart="true" android:layout_marginStart="0dp"/>
-    <TextView
-            android:text="Enter your user name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true" android:id="@+id/textView" android:layout_marginBottom="262dp"
-            android:layout_alignParentStart="true" android:textColorHint="#00FFFFFF" android:textSize="24sp"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,4 +44,13 @@
             android:ems="10"
             android:layout_alignParentBottom="true" android:id="@+id/editText"
             android:layout_marginBottom="194dp" android:textColorHint="#00000000" android:textSize="24sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Enter user name"
+            android:ems="10"
+            android:layout_alignParentBottom="true" android:id="@+id/editText3"
+            android:layout_marginBottom="272dp" android:hint="Enter user name"
+            android:textColorHint="#FFFFFF"/>
 </RelativeLayout>
